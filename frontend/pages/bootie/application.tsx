@@ -14,6 +14,7 @@ import { NextPage } from "next";
 import { useRouter } from "next/router";
 import Head from "next/head";
 import { sections, listTypes } from "../../lib/bootie_constants";
+import countApplicantCheckboxes from "../../utility/countApplicantChecks";
 import { styled } from "@mui/material/styles";
 import LinearProgress, {
   linearProgressClasses,
